@@ -40,6 +40,12 @@
             "problemMatcher": []
         },
         {
+            "label": "Git: Apply Patch",
+            "command": "git apply ${file}",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
             "label": "Typescript Build",
             "type": "typescript",
             "tsconfig": "tsconfig.json",
