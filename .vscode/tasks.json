@@ -40,6 +40,12 @@
             "problemMatcher": []
         },
         {
+            "label": "SVN: Apply Patch",
+            "command": "svn patch ${file}",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
             "label": "Git: Apply Patch",
             "command": "git apply ${file}",
             "type": "shell",
